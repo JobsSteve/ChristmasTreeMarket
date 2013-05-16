@@ -139,11 +139,11 @@ public class World extends Stage {
 		addActor(undoButton);
 		addActor(pauseButton);
 		addActor(levelButton);
+		addActor(pointsImage);
+		addActor(elapsedImage);
 		addActor(soundButton);
 		addActor(infoButton);
 		addActor(closeButton);
-		addActor(pointsImage);
-		addActor(elapsedImage);
 	}
 
 	public List<Map<String, String>> getChampions() {
@@ -206,11 +206,11 @@ public class World extends Stage {
 		undoButton.setRegion();
 		pauseButton.setRegion();
 		levelButton.setRegion();
+		pointsImage.setRegion();
+		elapsedImage.setRegion();
 		soundButton.setRegion();
 		infoButton.setRegion();
 		closeButton.setRegion();
-		pointsImage.setRegion();
-		elapsedImage.setRegion();
 
 		for (i = 0; i < level; i++) {
 			for (j = 0; j < level; j++) {

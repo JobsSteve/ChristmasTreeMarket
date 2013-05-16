@@ -44,7 +44,14 @@ public class UndoButton extends Actor {
 	}
 
 	private void processInput(float x, float y) {
-		if (world.opened > 0 && world.completed == false && world.pauseGame == false && world.time == 0) {
+		if (
+			world.opened > 0
+			&& world.completed == false
+			&& world.pauseGame == false
+			&& world.infoOn == false
+			&& world.championsOn == false
+			&& world.time == 0
+		) {
 			if (world.soundOn) Assets.resetSound.play();
 
 			int[] step = world.history[world.opened - 1];
@@ -103,7 +110,15 @@ public class UndoButton extends Actor {
 		String name = "Отмена";
 		float w = fontButton.getBounds(name).width;
 		float h = fontButton.getBounds(name).height;
-		if (touched && world.opened > 0 && world.completed == false && world.pauseGame == false && world.time == 0) {
+		if (
+			touched
+			&& world.completed == false
+			&& world.opened > 0
+			&& world.pauseGame == false
+			&& world.infoOn == false
+			&& world.championsOn == false
+			&& world.time == 0
+		) {
 			fontButton.setColor(253f / 255, 250f / 255, 0f / 255, 1);
 		} else {
 			fontButton.setColor(79f / 255, 53f / 255, 49f / 255, 1);

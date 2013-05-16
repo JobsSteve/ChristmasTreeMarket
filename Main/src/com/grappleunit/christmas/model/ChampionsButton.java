@@ -6,12 +6,12 @@ import com.badlogic.gdx.scenes.scene2d.InputEvent;
 import com.badlogic.gdx.scenes.scene2d.InputListener;
 import com.grappleunit.christmas.Assets;
 
-public class InfoButton extends Actor {
+public class ChampionsButton extends Actor {
 
 	World world;
 	boolean touched = false;
 
-	public InfoButton(World world) {
+	public ChampionsButton(World world) {
 		this.world = world;
 
 		addListener(new InputListener() {
@@ -43,11 +43,11 @@ public class InfoButton extends Actor {
 	private void processInput(float x, float y) {
 		if (world.pauseGame == false && world.completed == false && world.time == 0) {
 			if (world.soundOn) Assets.infoSound.play();
-			if (world.infoOn == false) {
-				world.infoOn = true;
+			if (world.championsOn == false) {
+				world.championsOn = true;
 				world.timer = System.nanoTime() - world.timer;
 			} else {
-				world.infoOn = false;
+				world.championsOn = false;
 				world.timer = System.nanoTime() - world.timer;
 			}
 		}
@@ -57,12 +57,12 @@ public class InfoButton extends Actor {
 	public void draw(SpriteBatch batch, float parentAlpha) {
 //		batch.draw(Assets.frame, getX(), getY(), getWidth(), getHeight());
 		String name =
-			(touched || world.infoOn)
+			(touched || world.championsOn)
 			&& world.pauseGame == false
 			&& world.championsOn == false
 			&& world.completed == false
 			&& world.time == 0
-			? "infoOver" : "info";
+				? "infoOver" : "info";
 		batch.draw(Assets.textureRegions.get(name), getX(), getY(), getWidth(), getHeight());
 	}
 }
