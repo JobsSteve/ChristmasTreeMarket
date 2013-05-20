@@ -5,7 +5,7 @@
     <ignored path="ChristmasTreeMarket.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/DesktopStarter.java" changelist="569d1952-75aa-4b9d-b93b-95d816c61706" time="1366918260190" ignored="false" />
-    <file path="/fragment.java" changelist="569d1952-75aa-4b9d-b93b-95d816c61706" time="1367871750510" ignored="false" />
+    <file path="/fragment.java" changelist="569d1952-75aa-4b9d-b93b-95d816c61706" time="1368989548254" ignored="false" />
     <file path="/MyGame.java" changelist="569d1952-75aa-4b9d-b93b-95d816c61706" time="1368469078033" ignored="false" />
     <file path="/World.java" changelist="569d1952-75aa-4b9d-b93b-95d816c61706" time="1367793777077" ignored="false" />
     <file path="/GameScreen.java" changelist="569d1952-75aa-4b9d-b93b-95d816c61706" time="1368474407203" ignored="false" />
@@ -16,7 +16,7 @@
     <file path="/Assets.java" changelist="569d1952-75aa-4b9d-b93b-95d816c61706" time="1367068265958" ignored="false" />
     <file path="/UndoButton.java" changelist="569d1952-75aa-4b9d-b93b-95d816c61706" time="1366745371021" ignored="false" />
     <file path="/NewGameButton.java" changelist="569d1952-75aa-4b9d-b93b-95d816c61706" time="1368728723107" ignored="false" />
-    <file path="/Pause.java" changelist="569d1952-75aa-4b9d-b93b-95d816c61706" time="1367064945238" ignored="false" />
+    <file path="/Pause.java" changelist="569d1952-75aa-4b9d-b93b-95d816c61706" time="1368990041915" ignored="false" />
     <file path="/LevelButton.java" changelist="569d1952-75aa-4b9d-b93b-95d816c61706" time="1367068337781" ignored="false" />
     <file path="/Points.java" changelist="569d1952-75aa-4b9d-b93b-95d816c61706" time="1367070702549" ignored="false" />
     <file path="/Elapsed.java" changelist="569d1952-75aa-4b9d-b93b-95d816c61706" time="1367071488159" ignored="false" />
@@ -26,15 +26,17 @@
     <file path="/CloseButton.java" changelist="569d1952-75aa-4b9d-b93b-95d816c61706" time="1366745266786" ignored="false" />
     <file path="/Info.java" changelist="569d1952-75aa-4b9d-b93b-95d816c61706" time="1367065561401" ignored="false" />
     <file path="/ActorRegion.java" changelist="569d1952-75aa-4b9d-b93b-95d816c61706" time="1366841995063" ignored="false" />
-    <file path="/AndroidStarter.java" changelist="569d1952-75aa-4b9d-b93b-95d816c61706" time="1368470747117" ignored="false" />
-    <file path="/AndroidManifest.xml" changelist="569d1952-75aa-4b9d-b93b-95d816c61706" time="1367063155458" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/plugins/android/lib/android.jar!/org/jetbrains/android/android.xsd" changelist="569d1952-75aa-4b9d-b93b-95d816c61706" time="1367063196280" ignored="false" />
+    <file path="/AndroidStarter.java" changelist="569d1952-75aa-4b9d-b93b-95d816c61706" time="1368987865451" ignored="false" />
+    <file path="/AndroidManifest.xml" changelist="569d1952-75aa-4b9d-b93b-95d816c61706" time="1368989669519" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/android/lib/android.jar!/org/jetbrains/android/android.xsd" changelist="569d1952-75aa-4b9d-b93b-95d816c61706" time="1368987422452" ignored="false" />
     <file path="/Champions.java" changelist="569d1952-75aa-4b9d-b93b-95d816c61706" time="1367785206233" ignored="false" />
     <file path="$PROJECT_DIR$/Main/src/com/grappleunit/christmas/ApplicationHelper.java" changelist="569d1952-75aa-4b9d-b93b-95d816c61706" time="1367869591562" ignored="false" />
     <file path="/AppHelper.java" changelist="569d1952-75aa-4b9d-b93b-95d816c61706" time="1367871500296" ignored="false" />
     <file path="/Helper.java" changelist="569d1952-75aa-4b9d-b93b-95d816c61706" time="1368468456053" ignored="false" />
     <file path="/ChampionsButton.java" changelist="569d1952-75aa-4b9d-b93b-95d816c61706" time="1368728986009" ignored="false" />
     <file path="/a.html" changelist="569d1952-75aa-4b9d-b93b-95d816c61706" time="1368729108605" ignored="false" />
+    <file path="/StartApplication.java" changelist="569d1952-75aa-4b9d-b93b-95d816c61706" time="1368989046321" ignored="false" />
+    <file path="/MyApplication.java" changelist="569d1952-75aa-4b9d-b93b-95d816c61706" time="1368991668289" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +51,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -85,7 +88,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -95,87 +97,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="World.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Main/src/com/grappleunit/christmas/model/World.java">
+      <file leaf-file-name="AndroidStarter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Android/src/com/grappleunit/christmas/AndroidStarter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="145" column="30" selection-start="3434" selection-end="3434" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PauseButton.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Main/src/com/grappleunit/christmas/model/PauseButton.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="83" selection-start="1328" selection-end="1328" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GameScreen.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Main/src/com/grappleunit/christmas/screens/GameScreen.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="175" column="36" selection-start="3855" selection-end="3855" vertical-scroll-proportion="0.0">
+            <state line="4" column="73" selection-start="196" selection-end="196" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#727#748#0" expanded="true" />
-                <element signature="e#887#903#0" expanded="true" />
-                <element signature="e#3298#3314#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Champions.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Main/src/com/grappleunit/christmas/model/Champions.java">
+      <file leaf-file-name="MyApplication.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Android/src/com/grappleunit/christmas/MyApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="66" column="23" selection-start="1994" selection-end="1994" vertical-scroll-proportion="0.0">
+            <state line="9" column="4" selection-start="201" selection-end="201" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Pause.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Main/src/com/grappleunit/christmas/model/Pause.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="38" selection-start="805" selection-end="805" vertical-scroll-proportion="0.85294116">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InfoButton.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Main/src/com/grappleunit/christmas/model/InfoButton.java">
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Android/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="179" selection-start="1444" selection-end="1444" vertical-scroll-proportion="0.3529412">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NewGameButton.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Main/src/com/grappleunit/christmas/model/NewGameButton.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="78" column="16" selection-start="2125" selection-end="2125" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UndoButton.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Main/src/com/grappleunit/christmas/model/UndoButton.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="121" column="52" selection-start="3493" selection-end="3493" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ChampionsButton.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Main/src/com/grappleunit/christmas/model/ChampionsButton.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="13" selection-start="1488" selection-end="1488" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SoundButton.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Main/src/com/grappleunit/christmas/model/SoundButton.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="2" selection-start="1351" selection-end="1351" vertical-scroll-proportion="0.0">
+            <state line="10" column="12" selection-start="513" selection-end="513" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -191,15 +147,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Main/src/grapple/unit/christmas/model/Champions.java" />
-        <option value="$PROJECT_DIR$/Android/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/Main/src/com/grappleunit/christmas/model/Cell.java" />
-        <option value="$PROJECT_DIR$/Main/src/com/grappleunit/christmas/model/Champions.java" />
-        <option value="$PROJECT_DIR$/Main/src/com/grappleunit/christmas/ApplicationHelper.java" />
-        <option value="$PROJECT_DIR$/Main/src/com/grappleunit/christmas/AppHelper.java" />
         <option value="$PROJECT_DIR$/Main/src/com/grappleunit/christmas/AndroidStarter.java" />
         <option value="$PROJECT_DIR$/Main/src/com/grappleunit/christmas/Helper.java" />
-        <option value="$PROJECT_DIR$/Android/src/com/grappleunit/christmas/AndroidStarter.java" />
         <option value="$PROJECT_DIR$/Main/src/com/grappleunit/christmas/MyGame.java" />
         <option value="$PROJECT_DIR$/Main/src/com/grappleunit/christmas/screens/GameScreen.java" />
         <option value="$PROJECT_DIR$/Main/src/com/grappleunit/christmas/model/NewGameButton.java" />
@@ -207,6 +156,13 @@
         <option value="$PROJECT_DIR$/Main/src/com/grappleunit/christmas/model/ChampionsButton.java" />
         <option value="$PROJECT_DIR$/Main/src/com/grappleunit/christmas/model/World.java" />
         <option value="$PROJECT_DIR$/Main/src/com/grappleunit/christmas/model/InfoButton.java" />
+        <option value="$PROJECT_DIR$/Main/src/com/grappleunit/christmas/model/Cell.java" />
+        <option value="$PROJECT_DIR$/Android/src/com/grappleunit/christmas/StartApplication.java" />
+        <option value="$PROJECT_DIR$/Main/src/com/grappleunit/christmas/MyApplication.java" />
+        <option value="$PROJECT_DIR$/Android/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/Android/src/com/grappleunit/christmas/AndroidStarter.java" />
+        <option value="$PROJECT_DIR$/Android/src/com/grappleunit/christmas/MyApplication.java" />
+        <option value="$PROJECT_DIR$/Main/src/com/grappleunit/christmas/model/Pause.java" />
       </list>
     </option>
   </component>
@@ -266,8 +222,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -332,16 +288,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Desktop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ChristmasTreeMarket" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="Android" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -394,11 +340,11 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.grappleunit.christmas" />
     </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="grapple.unit" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Denis\IdeaProjects\ChristmasTreeMarket\Main\src\grapple\unit\utils" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="grapple.unit" />
     </key>
   </component>
   <component name="RunManager" selected="Application.DesktopStarter">
@@ -643,7 +589,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24919957" sideWeight="0.6718576" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32814237" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32814237" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32925472" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -683,7 +629,7 @@
     <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
     <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
-    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="false" />
     <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
     <option name="LIMIT_HISTORY" value="true" />
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
@@ -716,6 +662,13 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Main/src/com/grappleunit/christmas/model/SoundButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="2" selection-start="1351" selection-end="1351" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Main/src/com/grappleunit/christmas/model/PauseButton.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="46" column="83" selection-start="1328" selection-end="1328" vertical-scroll-proportion="0.0">
@@ -723,54 +676,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Android/AndroidManifest.xml">
+    <entry file="jar://$PROJECT_DIR$/Main/libs/gdx-sources.jar!/com/badlogic/gdx/Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="12" selection-start="552" selection-end="552" vertical-scroll-proportion="0.0">
+        <state line="25" column="22" selection-start="1120" selection-end="1120" vertical-scroll-proportion="0.32352942">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Main/src/com/grappleunit/christmas/model/Cell.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="14" selection-start="2460" selection-end="2460" vertical-scroll-proportion="0.58925474">
+        <state line="87" column="0" selection-start="2449" selection-end="2449" vertical-scroll-proportion="0.5899654">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Android/res/values/strings.xml">
+    <entry file="file://$PROJECT_DIR$/Main/src/com/grappleunit/christmas/model/InfoButton.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="47" column="24" selection-start="1312" selection-end="1312" vertical-scroll-proportion="0.74913496">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Main/src/com/grappleunit/christmas/model/Champions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="23" selection-start="1994" selection-end="1994" vertical-scroll-proportion="0.0">
+        <state line="66" column="23" selection-start="1994" selection-end="1994" vertical-scroll-proportion="0.029411765">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/Main/libs/gdx-sources.jar!/com/badlogic/gdx/ApplicationListener.java">
+    <entry file="file://$PROJECT_DIR$/Main/src/com/grappleunit/christmas/screens/GameScreen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="17" selection-start="1281" selection-end="1281" vertical-scroll-proportion="0.33217993" />
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/Main/libs/gdx-sources.jar!/com/badlogic/gdx/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="22" selection-start="1120" selection-end="1120" vertical-scroll-proportion="0.21371429">
+        <state line="175" column="36" selection-start="3855" selection-end="3855" vertical-scroll-proportion="0.029411765">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Android/src/com/grappleunit/christmas/AndroidStarter.java">
+    <entry file="file://$PROJECT_DIR$/Main/src/com/grappleunit/christmas/model/World.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="31" selection-start="540" selection-end="540" vertical-scroll-proportion="0.4117647">
+        <state line="145" column="30" selection-start="3434" selection-end="3434" vertical-scroll-proportion="0.029411765">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Main/src/com/grappleunit/christmas/MyGame.java">
+    <entry file="jar://$PROJECT_DIR$/Android/libs/gdx-backend-android.jar!/com/badlogic/gdx/backends/android/AndroidApplication.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="10" selection-start="407" selection-end="407" vertical-scroll-proportion="0.5">
+        <state line="6" column="13" selection-start="176" selection-end="176" vertical-scroll-proportion="0.1574074">
           <folding />
         </state>
       </provider>
@@ -782,49 +732,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Main/src/com/grappleunit/christmas/screens/GameScreen.java">
+    <entry file="file://$PROJECT_DIR$/Main/src/com/grappleunit/christmas/MyGame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="175" column="36" selection-start="3855" selection-end="3855" vertical-scroll-proportion="0.0">
+        <state line="5" column="29" selection-start="149" selection-end="149" vertical-scroll-proportion="0.11764706">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/Android/libs/acra-4.5.0.jar!/org/acra/ACRA.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="23" selection-start="1311" selection-end="1311" vertical-scroll-proportion="0.17148015">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Android/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="12" selection-start="513" selection-end="513" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Android/src/com/grappleunit/christmas/AndroidStarter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="73" selection-start="196" selection-end="196" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#727#748#0" expanded="true" />
-            <element signature="e#887#903#0" expanded="true" />
-            <element signature="e#3298#3314#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Main/src/com/grappleunit/christmas/model/ChampionsButton.java">
+    <entry file="file://$PROJECT_DIR$/Android/src/com/grappleunit/christmas/MyApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="13" selection-start="1488" selection-end="1488" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="9" column="4" selection-start="201" selection-end="201" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Main/src/com/grappleunit/christmas/model/UndoButton.java">
+    <entry file="file://$PROJECT_DIR$/Main/src/com/grappleunit/christmas/model/Pause.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="121" column="52" selection-start="3493" selection-end="3493" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Main/src/com/grappleunit/christmas/model/NewGameButton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="16" selection-start="2125" selection-end="2125" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Main/src/com/grappleunit/christmas/model/World.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="145" column="30" selection-start="3434" selection-end="3434" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Main/src/com/grappleunit/christmas/model/InfoButton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="179" selection-start="1444" selection-end="1444" vertical-scroll-proportion="0.3529412">
+        <state line="31" column="38" selection-start="805" selection-end="805" vertical-scroll-proportion="0.85294116">
           <folding />
         </state>
       </provider>

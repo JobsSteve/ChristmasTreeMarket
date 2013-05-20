@@ -77,7 +77,6 @@ public class Cell extends Actor {
 
 		if(currentNumber == 0) {
 
-			/*
 			if (world.soundOn) {
 				switch (number) {
 					case 1: Assets.cellSound1.play(); break;
@@ -86,7 +85,6 @@ public class Cell extends Actor {
 					case 4: Assets.cellSound4.play(); break;
 				}
 			}
-			*/
 
 			currentNumber = 1;
 
