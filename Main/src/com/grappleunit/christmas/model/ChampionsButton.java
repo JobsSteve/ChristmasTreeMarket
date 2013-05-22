@@ -29,10 +29,10 @@ public class ChampionsButton extends Actor {
 
 	public void setRegion() {
 		if (world.cameraAspectRatio > 1) {
-			setX(world.paddingX + 845f * world.ppuX);
+			setX(world.paddingX + 735f * world.ppuX);
 			setY(world.paddingY + 666f * world.ppuY);
 		} else {
-			setX(world.paddingX + 588f * world.ppuX);
+			setX(world.paddingX + 478f * world.ppuX);
 			setY(world.paddingY + 1090f * world.ppuY);
 		}
 
@@ -41,7 +41,12 @@ public class ChampionsButton extends Actor {
 	}
 
 	private void processInput(float x, float y) {
-		if (world.pauseGame == false && world.completed == false && world.time == 0) {
+		if (
+			world.pauseGame == false
+			&& world.completed == false
+			&& world.time == 0
+			&& world.infoOn == false
+		) {
 			if (world.soundOn) Assets.infoSound.play();
 			if (world.championsOn == false) {
 				world.championsOn = true;
@@ -59,10 +64,10 @@ public class ChampionsButton extends Actor {
 		String name =
 			(touched || world.championsOn)
 			&& world.pauseGame == false
-			&& world.championsOn == false
+			&& world.infoOn == false
 			&& world.completed == false
 			&& world.time == 0
-				? "infoOver" : "info";
+				? "championsOver" : "champions";
 		batch.draw(Assets.textureRegions.get(name), getX(), getY(), getWidth(), getHeight());
 	}
 }

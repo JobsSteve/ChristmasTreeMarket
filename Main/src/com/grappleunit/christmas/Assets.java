@@ -77,14 +77,16 @@ public class Assets {
 		textureRegions.put("number3", tmp[2][2]);
 		textureRegions.put("number4", tmp[2][3]);
 
-		TextureRegion tmp2[][] = TextureRegion.split(knopki, knopki.getWidth() / 3, knopki.getHeight() / 3);
+		TextureRegion tmp2[][] = TextureRegion.split(knopki, knopki.getWidth() / 4, knopki.getHeight() / 3);
 
 		textureRegions.put("sound", tmp2[0][0]);
 		textureRegions.put("info", tmp2[0][1]);
 		textureRegions.put("close", tmp2[0][2]);
+		textureRegions.put("champions", tmp2[0][3]);
 		textureRegions.put("soundOver", tmp2[1][0]);
 		textureRegions.put("infoOver", tmp2[1][1]);
 		textureRegions.put("closeOver", tmp2[1][2]);
+		textureRegions.put("championsOver", tmp2[1][3]);
 		textureRegions.put("soundOff", tmp2[2][0]);
 		textureRegions.put("soundOffOver", tmp2[2][1]);
 	}

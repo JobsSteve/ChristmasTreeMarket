@@ -44,7 +44,12 @@ public class PauseButton extends Actor {
 	}
 
 	private void processInput(float x, float y) {
-		if (world.completed == false && world.time == 0 && world.infoOn == false) {
+		if (
+			world.completed == false
+			&& world.time == 0
+			&& world.infoOn == false
+			&& world.championsOn == false
+		) {
 			if (world.soundOn) Assets.pauseSound.play();
 			if (world.pauseGame == false) {
 				world.pauseGame = true;
@@ -67,7 +72,13 @@ public class PauseButton extends Actor {
 		String name = "Пауза";
 		float w = fontButton.getBounds(name).width;
 		float h = fontButton.getBounds(name).height;
-		if ((touched || world.pauseGame) && world.completed == false && world.time == 0 && world.infoOn == false) {
+		if (
+			(touched || world.pauseGame)
+			&& world.completed == false
+			&& world.time == 0
+			&& world.infoOn == false
+			&& world.championsOn == false
+		) {
 			fontButton.setColor(253f / 255, 250f / 255, 0f / 255, 1);
 		} else {
 			fontButton.setColor(79f / 255, 53f / 255, 49f / 255, 1);

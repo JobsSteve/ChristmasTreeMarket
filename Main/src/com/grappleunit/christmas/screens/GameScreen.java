@@ -154,9 +154,11 @@ public class GameScreen implements Screen, InputProcessor {
 				}
 			}
 
+			/*
 			for (Map<String, String> champion : champions) {
 				System.out.println(champion.get("points")+" - "+champion.get("date"));
 			}
+			*/
 
 		} catch (RuntimeException e) {
 			e.printStackTrace();

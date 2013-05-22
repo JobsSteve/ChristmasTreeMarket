@@ -43,7 +43,7 @@ public class Champions extends Actor {
 
 			font.setColor(253f / 255, 250f / 255, 0f / 255, 1);
 
-			String title = "DOCKA 4EMnuOHOB";
+			String title = "DOCKA PEKOPDOB";
 			float w0 = font.getBounds(title).width;
 			font.draw(batch, title, getX() + (getWidth() - w0) / 2f, getY() + getHeight());
 

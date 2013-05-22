@@ -41,7 +41,12 @@ public class InfoButton extends Actor {
 	}
 
 	private void processInput(float x, float y) {
-		if (world.pauseGame == false && world.completed == false && world.time == 0) {
+		if (
+			world.pauseGame == false
+			&& world.completed == false
+			&& world.time == 0
+			&& world.championsOn == false
+		) {
 			if (world.soundOn) Assets.infoSound.play();
 			if (world.infoOn == false) {
 				world.infoOn = true;

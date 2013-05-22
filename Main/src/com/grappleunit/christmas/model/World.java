@@ -28,6 +28,7 @@ public class World extends Stage {
 	Champions championsImage;
 	Elapsed elapsedImage;
 	Points pointsImage;
+	ChampionsButton championsButton;
 	CloseButton closeButton;
 	InfoButton infoButton;
 	LevelButton levelButton;
@@ -115,6 +116,7 @@ public class World extends Stage {
 		undoButton = new UndoButton(this);
 		pauseButton = new PauseButton(this);
 		levelButton = new LevelButton(this);
+		championsButton = new ChampionsButton(this);
 		soundButton = new SoundButton(this);
 		infoButton = new InfoButton(this);
 		closeButton = new CloseButton(this);
@@ -144,6 +146,7 @@ public class World extends Stage {
 		addActor(soundButton);
 		addActor(infoButton);
 		addActor(closeButton);
+		addActor(championsButton);
 	}
 
 	public List<Map<String, String>> getChampions() {
@@ -211,6 +214,7 @@ public class World extends Stage {
 		soundButton.setRegion();
 		infoButton.setRegion();
 		closeButton.setRegion();
+		championsButton.setRegion();
 
 		for (i = 0; i < level; i++) {
 			for (j = 0; j < level; j++) {
